@@ -1,0 +1,76 @@
+/* Universal settings */
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+/* Navar */
+
+.nav-bg {
+    background: linear-gradient(rgba(36, 37, 36, 0.644), rgba(36, 37, 36, 0.644)), url('../images/navbg.png');
+    background-size: cover;
+    height: 85px;
+    
+    
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 83%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 16px;
+    
+}
+
+/* nav logo section */
+.navbrand-container {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.navbrand-container h2{
+    font-weight: 500;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+/* Navmenu section */
+
+.menus{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+}
+
+.menus li > a{
+    
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+}
+
+.menus button {
+    width: 122px;
+    height: 46px;
+    border-radius: 50px;
+    background-color: #F34509;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+}
+
+.menus button:hover {
+    background-color: #f34309a1;
+}
+
