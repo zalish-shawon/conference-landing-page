@@ -83,16 +83,27 @@ body {
     transition: 0.4s;
 }
 
+.sticky-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
 /* banner section */
 
 .banner {
-    background-image:linear-gradient(rgba(36, 37, 36, 0.644), rgba(36, 37, 36, 0.644)),  url('../images/banner.png');
+    
     background-size: cover;
-    height: 550px;
+    height: 650px;
+    position: relative;
+    background-size: cover;
+    animation: slide 10s infinite;
+    
 }
 
 .banner-container {
-   padding-top: 100px;
+   padding-top: 170px;
 }
 
 .banner-container h1 {
@@ -109,6 +120,57 @@ body {
 .banner-container span {
     font-style: normal;
     font-weight: 400;
+}
+
+
+
+@keyframes slide {
+    0% {
+        background-image: linear-gradient(rgba(36, 37, 36, 0.644), rgba(36, 37, 36, 0.644)), url('../images/banner.png');
+    }
+    25% {
+        background-image: linear-gradient(rgba(36, 37, 36, 0.644), rgba(36, 37, 36, 0.644)), url('https://st.depositphotos.com/1056393/5165/i/450/depositphotos_51650835-stock-photo-audience-at-the-conference-hall.jpg');
+    }
+    50% {
+        background-image: linear-gradient(rgba(36, 37, 36, 0.644), rgba(36, 37, 36, 0.644)), url('https://thumbs.dreamstime.com/b/business-speaker-giving-talk-conference-event-hall-focus-unrecognizable-people-audience-entrepreneurship-concept-121363340.jpg');
+    }
+    75% {
+        background-image: linear-gradient(rgba(36, 37, 36, 0.644), rgba(36, 37, 36, 0.644)), url('https://images.unsplash.com/photo-1561489396-888724a1543d?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y29uZmVyZW5jZXxlbnwwfHwwfHx8MA%3D%3D');
+    }
+    100% {
+        background-image: linear-gradient(rgba(36, 37, 36, 0.644), rgba(36, 37, 36, 0.644)), url('../images/banner.png');
+    }
+}
+
+
+.date-icon, .time-icon, .location-icon {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.date, .time, .location {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.date-container, .time-container, .address-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.conference-time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 .btn-details {
@@ -148,33 +210,35 @@ body {
     margin-top: 20px;
 }
 
-.date-icon, .time-icon, .location-icon {
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    background-color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.welcome-container {
+    background-image: linear-gradient(rgba(36, 37, 36, 0.945), rgba(36, 37, 36, 0.76)), url('../images/welcomebg.png');
+    background-size: cover;
+    height: 500px;
+    
+
 }
 
-.date, .time, .location {
+.welcome-header {
+   padding-top: 130px;
+}
+
+.welcome-header h1 {
     color: #FFF;
-    font-size: 16px;
+    text-align: center;
+    font-size: 30px;
     font-weight: 700;
+    letter-spacing: 0.36px;
+
 }
 
-.date-container, .time-container, .address-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-}
-
-.conference-time {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+.welcome-header p {
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 78%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
