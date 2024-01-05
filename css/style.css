@@ -287,6 +287,7 @@ body {
 
 .events-container {
     margin-top: 80px;
+    
 }
 
 .events-header h1 {
@@ -300,11 +301,183 @@ body {
 .events-header p {
     color: #000;
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     max-width: 50%;
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     line-height: 24px;
+}
+
+.events-card img {
+    width: 325px;
+}
+
+.events-card {
+    position: relative;
+    margin-top: 94px;
+}
+
+
+.events-name {
+    position: absolute;
+    bottom: 4px;
+    width: 325px;
+    padding-top: 30px;
+    opacity: 0.9;
+    background: linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0.58) 81.79%, rgba(0, 0, 0, 0.00) 93.48%);
+}
+
+.events-name h3{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #fff;
+    margin-left: 5px;
+    
+    
+}
+
+.events-name p {
+    font-size: 12px;
+    margin-top: 3px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #fff;
+    margin-left: 5px;
+
+}
+
+.events-schedule {
+    position: absolute;
+    top: 12px;
+    left: 159px;
+}
+
+.events-time {
+    color: #FFF;
+    background-color: #F34509;
+    padding: 5px;
+    margin-top: 3px;
+}
+.events-date {
+    color: #FFF;
+    background-color: #F34509;
+    padding: 5px;
+    width: 145px;
+    margin-left: 21px;
+    
+}
+
+.allEvents-cards {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    
+    
+  
+}
+
+/* The Future of Currencies */
+
+.currencies-container {
+    background-color: #00110C;
+    margin-top: 15px;
+    background-image: url('/images/thunderbg.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.currencies-container img {
+    width: 650px;
+}
+
+.currencies-container h1 {
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 25px;
+}
+
+.currencies-container p {
+    margin-top: 22px;
+    margin-bottom: 48px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px /* 24px */
+}
+
+/* Speakers */
+
+.speakers-container {
+    background-color: #172C27;
+}
+
+.speakers-header h1{
+    padding-top: 85px;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0.36px;
+}
+
+.speakers-header p {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 55%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 24px;
+}
+
+.chief-patron {
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.28px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.chief-card {
+    width: 376px;
+   display: flex;
+   background-color: #FFF;
+   
+}
+
+.chief-card img {
+    
+    top: 18px;
+    left: 66px;
+    right: 66px;
+}
+
+.title-tag {
+    margin-left: 35px;
+    background-color: #179748;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    color: #FFF;
+    width: 116px;
+}
+
+.title-tag img {
+    margin-top: 5px;
 }
