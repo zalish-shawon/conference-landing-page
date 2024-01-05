@@ -94,8 +94,8 @@ body {
 
 .banner {
     
-    background-size: cover;
-    height: 650px;
+    
+    height: 800px;
     position: relative;
     background-size: cover;
     animation: slide 10s infinite;
@@ -103,7 +103,7 @@ body {
 }
 
 .banner-container {
-   padding-top: 170px;
+   padding-top: 200px;
 }
 
 .banner-container h1 {
@@ -127,6 +127,7 @@ body {
 @keyframes slide {
     0% {
         background-image: linear-gradient(rgba(36, 37, 36, 0.644), rgba(36, 37, 36, 0.644)), url('../images/banner.png');
+       
     }
     25% {
         background-image: linear-gradient(rgba(36, 37, 36, 0.644), rgba(36, 37, 36, 0.644)), url('https://st.depositphotos.com/1056393/5165/i/450/depositphotos_51650835-stock-photo-audience-at-the-conference-hall.jpg');
@@ -210,16 +211,21 @@ body {
     margin-top: 20px;
 }
 
+/* welcome section */
+
 .welcome-container {
     background-image: linear-gradient(rgba(36, 37, 36, 0.945), rgba(36, 37, 36, 0.76)), url('../images/welcomebg.png');
     background-size: cover;
     height: 500px;
+    background-attachment: fixed;
+    position: relative;
     
 
 }
 
 .welcome-header {
    padding-top: 130px;
+   position: relative;
 }
 
 .welcome-header h1 {
@@ -228,6 +234,7 @@ body {
     font-size: 30px;
     font-weight: 700;
     letter-spacing: 0.36px;
+    
 
 }
 
@@ -240,5 +247,64 @@ body {
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
+    line-height: 24px;
 }
 
+/* organizer */
+
+.organizers-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+
+}
+
+.organizer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.organizer-logo {
+    width: 220px;
+    height: 46px;
+    border-radius: 50px;
+    background-color: #179748;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.organizer-logo:hover {
+    background-color: red;
+}
+
+/* Our events section */
+
+.events-container {
+    margin-top: 80px;
+}
+
+.events-header h1 {
+    color: #000;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0.36px;
+}
+
+.events-header p {
+    color: #000;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 50%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 24px;
+}
