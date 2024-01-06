@@ -1,0 +1,133 @@
+/* responsive */
+
+@media screen and (max-width: 425px) {
+    .nav-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sticky-header {
+        position: static;
+    }
+    .menus{
+    
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .nav-bg {
+        height: 370px;
+    }
+    .organizers-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       
+    
+    }
+    .welcome-container {
+        height: 800px;
+    }
+
+    .events-container {
+        display: none;
+    }
+    
+    .currencies-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .currencies-container img {
+        width: 380px;
+    }
+    .chief-patron-container {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+    footer {
+        height: 700px;
+    }
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+   
+    
+}
+
+/* Medium screens (426px to 768px) */
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    
+    .nav-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sticky-header {
+        position: static;
+    }
+    .menus{
+    
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .nav-bg {
+        height: 370px;
+    }
+    .organizers-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       
+    
+    }
+    .welcome-container {
+        height: 800px;
+    }
+
+    .events-container {
+        max-width: 85%;
+        margin: 0 auto;
+    }
+    
+    .currencies-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .currencies-container img {
+        width: 380px;
+    }
+    .chief-patron-container {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    footer {
+        height: 700px;
+    }
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+   
+    
+}

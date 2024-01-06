@@ -1,0 +1,32 @@
+/* organizer */
+
+.organizers-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+
+}
+
+.organizer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.organizer-logo {
+    width: 220px;
+    height: 46px;
+    border-radius: 50px;
+    background-color: #179748;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.organizer-logo:hover {
+    background-color: red;
+}

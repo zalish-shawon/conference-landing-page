@@ -1,0 +1,37 @@
+/* Welcome */
+.welcome-container {
+    background-image: linear-gradient(rgba(36, 37, 36, 0.945), rgba(36, 37, 36, 0.76)), url('../images/welcomebg.png');
+    background-size: cover;
+    height: 500px;
+    background-attachment: fixed;
+    position: relative;
+    
+
+}
+
+.welcome-header {
+   padding-top: 130px;
+   position: relative;
+}
+
+.welcome-header h1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0.36px;
+    
+
+}
+
+.welcome-header p {
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 78%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 24px;
+}

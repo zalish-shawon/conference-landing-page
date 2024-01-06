@@ -1,0 +1,32 @@
+/* The Future of Currencies */
+
+.currencies-container {
+    background-color: #00110C;
+    margin-top: 15px;
+    background-image: url('/images/thunderbg.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.currencies-container img {
+    width: 650px;
+}
+
+.currencies-container h1 {
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 25px;
+}
+
+.currencies-container p {
+    margin-top: 22px;
+    margin-bottom: 48px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px /* 24px */
+}
