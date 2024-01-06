@@ -16,8 +16,7 @@ body {
     background: linear-gradient(rgba(36, 37, 36, 0.644), rgba(36, 37, 36, 0.644)), url('../images/navbg.png');
     background-size: cover;
     height: 85px;
-    position: sticky;
-    top: 0;
+    
     
     
 }
@@ -375,9 +374,6 @@ body {
     gap: 15px;
     justify-content: center;
     align-items: center;
-    
-    
-  
 }
 
 /* The Future of Currencies */
@@ -534,3 +530,211 @@ body {
     font-weight: 400;
     line-height: 25px;
 }
+
+/* Footer section */
+
+footer {
+   height: 350px;
+    background-image: linear-gradient(rgba(36, 37, 36, 0.8), rgba(36, 37, 36, 0.8)), url('../images/footerbg.png');
+   background-size: cover;
+   background-repeat: no-repeat;
+    
+}
+
+.footer-container {
+    max-width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 55px;
+    
+}
+
+.footer-logo h2 {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.btn-group-footer {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 65px;
+
+}
+
+.social-logos {
+    margin-top: 25px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.useful-links {
+    margin-bottom: 25px;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 150%; /* 36px */
+    letter-spacing: 0.24px;
+}
+
+
+.links {
+    margin-top: 10px;
+    color: #FFF;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap:7px;
+}
+
+.third-column {
+    margin-top: 35px;
+}
+
+
+/* responsive */
+
+@media screen and (max-width: 425px) {
+    .nav-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sticky-header {
+        position: static;
+    }
+    .menus{
+    
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .nav-bg {
+        height: 370px;
+    }
+    .organizers-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       
+    
+    }
+    .welcome-container {
+        height: 800px;
+    }
+
+    .events-container {
+        display: none;
+    }
+    
+    .currencies-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .currencies-container img {
+        width: 380px;
+    }
+    .chief-patron-container {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+    footer {
+        height: 700px;
+    }
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+   
+    
+}
+
+/* Medium screens (426px to 768px) */
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    
+    .nav-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sticky-header {
+        position: static;
+    }
+    .menus{
+    
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .nav-bg {
+        height: 370px;
+    }
+    .organizers-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       
+    
+    }
+    .welcome-container {
+        height: 800px;
+    }
+
+    .events-container {
+        display: none;
+    }
+    
+    .currencies-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .currencies-container img {
+        width: 380px;
+    }
+    .chief-patron-container {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    footer {
+        height: 700px;
+    }
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+   
+    
+}
+
+
+    
+    
