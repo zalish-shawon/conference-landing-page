@@ -416,7 +416,14 @@ body {
 /* Speakers */
 
 .speakers-container {
-    background-color: #172C27;
+    background-color: #172C27; 
+    background-image: url('../images/thunderbg.png');
+    
+}
+
+.card-container {
+    max-width: 85%;
+    margin: 0 auto;
 }
 
 .speakers-header h1{
@@ -440,6 +447,20 @@ body {
     line-height: 24px;
 }
 
+.chief-patron-container {
+    position: relative;
+    margin-top: 25px;
+    padding-bottom: 65px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.patron-container {
+    max-width: 85%;
+    margin-left: 8%;
+}
+
 .chief-patron {
     color: #FFF;
     font-size: 22px;
@@ -449,35 +470,67 @@ body {
     display: flex;
     align-items: center;
     gap: 4px;
+    margin-top: 65px;
+    
 }
 
 .chief-card {
     width: 376px;
-   display: flex;
+    height: 400px;
+     display: flex;
    background-color: #FFF;
+   position: relative;
+   margin-top: 55px;
    
 }
 
 .chief-card img {
-    
-    top: 18px;
+    top: 36px;
     left: 66px;
     right: 66px;
+    position: absolute;
+}
+
+.chief-card:hover path:first-child {
+    fill: #EB9231;
+    transition: 0.4s;
 }
 
 .title-tag {
     margin-left: 35px;
     background-color: #179748;
-    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5px;
+    gap: 1px;
     font-size: 14px;
     color: #FFF;
     width: 116px;
+    position: absolute;
+    top: 310px;
+    left: 85px;
+    
+    
 }
 
 .title-tag img {
-    margin-top: 5px;
+    margin-top: 10px;
+}
+
+.name-designation {
+    position: absolute;
+    text-align: center;
+    bottom: -15px;
+    padding-bottom: 25px;
+    left: 48px;
+
+}
+
+.name-designation h1 {
+    font-weight: 700;
+    line-height: 32px;
+}
+.name-designation p {
+    font-weight: 400;
+    line-height: 25px;
 }
